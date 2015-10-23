@@ -1,0 +1,118 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
+	background-color: #fbfbe5;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 17px;
+	line-height: 24px;
+	margin: 10px 10%;
+	text-align: center;
+}
+
+h1 {
+	text-indent: -9999px;
+	min-height: 120px;
+	background-image: url(../images/bgf-logo-cupcakes.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-bottom: 20px;
+}
+
+h2,
+.intro p:first-child {
+	color: #7f3f98;
+	font-size: 135%;
+	line-height: 135%;
+	text-align: center;
+	font-weight: bold;
+}
+
+.btn.call {
+	background-color: #e26087;
+	padding: 5px 10px;
+	line-height: 2;
+	display: inline-block;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	margin: auto;
+	min-width: 200px;
+}
+
+img[alt="phone"] {
+    height: 30px;
+    margin-right: 4px;
+    position: relative;
+    top: 4px;
+}
+/*
+.btn.call:before {
+	content: "phone";
+	text-indent: -9999px;
+	background-image: url(../images/telephone.svg);
+	background-size: 25%;
+	background-repeat: no-repeat;
+	display: block;
+	width: 50px;
+}
+*/
+section {
+	margin: 30px 0;
+}
+
+p {
+	margin: 15px 0;
+}
+
+.fall-in-love {
+	text-indent: -9999px;
+	background-image: url(../images/fall-in-love.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	min-height: 55px;
+	max-width: 400px;
+	margin: auto;
+}
+
+footer span {
+	display: block;
+}
+
+@media (min-width: 800px) {
+	h1 {
+		background-image: url(../images/bgf-logo.png);
+		min-height: 150px;
+		background-position: left;
+		display: inline-block;
+    	min-width: 300px;
+    	float: left;
+	}
+
+	.btn.call {
+		float: right;
+    	margin-top: 74px;
+    }
+
+
+	main {
+		background-image: url(../images/brown-girl-cupcakes.gif);
+		background-repeat: no-repeat;
+		background-position: left;
+		background-size: 50% auto;
+		padding-left: 55%;
+	}
+}
+
+@media (min-width: 980px) {
+	main {
+		background-size: contain;
+		padding-left: 410px;
+	}
+}
